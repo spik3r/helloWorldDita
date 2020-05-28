@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project basedir="/Users/kaitait/code/customSpaceTemplate" name="Copy template resources" default="copy-template-resources">
+    <target name="copy-template-resources">
+        <mkdir dir="/Users/kaitait/code/customSpaceTemplate/out/webhelp-responsive/oxygen-webhelp/template"/>
+        <copy todir="/Users/kaitait/code/customSpaceTemplate/out/webhelp-responsive/oxygen-webhelp/template" overwrite="yes" failonerror="yes" verbose="yes">
+            <fileset dir=".">
+                <include name="light.css"/>
+            </fileset>
+            <fileset dir=".">
+                <include name="img/RocketLogo.png"/>
+            </fileset>
+        </copy>
+    </target>
+</project>

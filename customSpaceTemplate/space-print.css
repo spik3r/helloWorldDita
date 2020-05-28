@@ -1,0 +1,53 @@
+@page front-page {
+
+    background-repeat: repeat;
+    background-position: 50% 30%;
+    background-color: white;
+}
+
+
+*[class~="front-page/front-page-title"] {
+    color: white;
+    font-family:arial;
+    font-size:2em;
+}
+
+@page:left {
+    @top-left-corner {
+        background-image:url('img/space_bgr.png');
+        content:"";
+    }
+}
+@page:right {
+    @top-right-corner {
+        background-image:url("img/RocketLogo.png");
+        content:"";
+    }
+}
+
+@page:first:left {
+       @top-left-corner {
+           background-image:none;
+       }
+}
+
+@page:first:right {
+    @top-right-corner {
+        background-image:none;
+        }
+}
+
+@page chapter:left, chapter:right{
+    @top-left {
+        font-size: 14pt;
+        color:rgb(37, 59, 97);
+    }
+    @top-right {
+        font-size: 14pt;
+        color:rgb(37, 59, 97);   
+    }
+    @top-center {
+        font-size: 14pt;
+        color:rgb(37, 59, 97);
+    }
+}

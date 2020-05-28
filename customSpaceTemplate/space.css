@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:400);
+@import url(https://fonts.googleapis.com/css?family=Play:400);
+
+.wh_publication_title > a{
+    color: #0061a2;
+    font-family: 'Orbitron';
+    font-size:1.85em;
+}
+
+.wh_top_menu > ul > li > span a {
+    color:#0061a2;   
+    font-family: 'Play';
+}
+
+.wh_tile_title a{
+    color:#0061a2;
+    font-family: 'Play';
+    font-weight: 600;
+    font-size:1.2em;
+}
+
+.wh_indexterms_link a {
+    color:#0061a2;
+}
+
+.wh_search_input {
+	display: block;
+	padding: 5em;
+	margin: 0;
+	background: url('img/space_bgr.png') no-repeat;
+	background-size: cover;
+	box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.3);
+}
+
+.wh_tile {
+    margin-top:35px;
+    border-radius: .5em;
+    background-color: #e7f6ff;
+}
+
+.topictitle1 {
+    color: #0161a2;
+}
+
+.sectiontitle {
+    color: #083756;
+}
+
+.title {
+    font-style: normal;
+}
+
+.wh_topic_content .thead {
+    background-color: #eee;
+    color: rgb(37, 59, 97);
+}
+
+.wh_topic_content td, 
+.wh_topic_content th {
+    border: 1.5pt solid #aaa !important;
+}
+
+
+.wh_topic_content .wh_related_links, 
+.wh_topic_content .wh_related_links .related-links {
+    margin: 0.45em;
+    padding: 0.45em;
+}
